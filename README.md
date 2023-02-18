@@ -1,4 +1,4 @@
 # Projects
 
-I am Sri Vaishnavi Aekkati
+I am Sri Vaishnavi Aekkati,
 Here are my Academic Projects.
