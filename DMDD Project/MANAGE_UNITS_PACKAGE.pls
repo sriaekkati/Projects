@@ -1,0 +1,11 @@
+-- A PACKAGE CALLED MANAGE_UNITS IS CREATED WITH ADD_UNITS PROCEDURE
+create or replace PACKAGE MANAGE_UNITS IS
+
+PROCEDURE ADD_UNITS(IN_UNIT_ID NUMBER, 
+                    IN_OWNER_ID NUMBER,
+                    IN_MANAGER_ID NUMBER,
+                    IN_UNIT_RENT NUMBER,
+                    IN_UNIT_OWNER VARCHAR2,
+                    IN_UNIT_ADDRESS VARCHAR2
+                    ) ;
+END MANAGE_UNITS;
