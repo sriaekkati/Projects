@@ -1,0 +1,28 @@
+{
+  "name": "vue-graphql",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/client": "3.10.8",
+    "@vue/apollo-composable": "4.0.2",
+    "graphql": "16.9.0",
+    "graphql-tag": "2.12.6",
+    "vue": "3.4.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.5",
+    "typescript": "5.5.3",
+    "vite": "5.3.4",
+    "vue-tsc": "2.0.26"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
